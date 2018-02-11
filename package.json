@@ -1,0 +1,33 @@
+{
+  "name": "try-these",
+  "version": "0.1.0",
+  "description": "A simple idiom for trying out blocks of code in sequence.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramumb/try-these.git"
+  },
+  "keywords": [
+    "try",
+    "these",
+    "catch",
+    "attempt",
+    "test"
+  ],
+  "author": "Reginald Mullin <ramumb@yahoo.com> (http://www.reginaldmullin.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ramumb/try-these/issues"
+  },
+  "homepage": "https://github.com/ramumb/try-these#readme",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.0.0"
+  }
+}
