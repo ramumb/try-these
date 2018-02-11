@@ -1,6 +1,9 @@
 try-these(function...)
 ======================
 
+[![Build Status](https://travis-ci.org/ramumb/try-these.svg?branch=master)](https://travis-ci.org/ramumb/try-these)
+[![Coverage Status](https://coveralls.io/repos/github/ramumb/try-these/badge.svg?branch=master)](https://coveralls.io/github/ramumb/try-these?branch=master)
+
 This is a port of the [PrototypeJS](http://prototypejs.org/) method `Try.these`.
 It accepts an arbitrary number of functions and returns the result of the first
 one that doesn't throw an error.
