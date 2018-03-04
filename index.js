@@ -7,7 +7,8 @@
  * @param {function}  A function that might throw an error
  * @return {any} The result of a function or a default value
  */
-module.exports = function() {
+
+function tryThese() {
     var result;
     
     for (var i = 0, length = arguments.length; i < length; i++) {
@@ -19,4 +20,6 @@ module.exports = function() {
     }
     
     return result;
-};
+}
+
+module.exports = tryThese;

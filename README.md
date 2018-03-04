@@ -6,19 +6,17 @@ try-these(function...)
 
 This is a port of the [PrototypeJS](http://prototypejs.org/) method `Try.these`.
 It accepts an arbitrary number of functions and returns the result of the first
-one that doesn't throw an error.
-
-`try-these` provides a simple idiom for trying out blocks of code in sequence.
-Such a sequence of attempts usually represents a downgrading approach to
-obtaining a given feature.
+one that doesn't throw an error.  `try-these` provides a simple idiom for trying
+out blocks of code in sequence.  Such a sequence of attempts usually represents
+a downgrading approach to obtaining a given feature.
 
 ## Installation
 
-  `npm install @ramumb/try-these`
+  `npm install try-these`
 
 ## Usage
 
-    var tryThese = require('@ramumb/try-these');
+    var tryThese = require('try-these');
 
     var XHR = tryThese(
         function() { return new XMLHttpRequest() },
