@@ -1,6 +1,6 @@
 {
   "name": "try-these",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A simple idiom for trying out blocks of code in sequence.",
   "main": "index.js",
   "scripts": {
