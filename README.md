@@ -1,5 +1,5 @@
-try-these(function...)
-======================
+try-these(function)
+========================================
 
 [![Build Status](https://travis-ci.org/ramumb/try-these.svg?branch=master)](https://travis-ci.org/ramumb/try-these)
 [![Coverage Status](https://coveralls.io/repos/github/ramumb/try-these/badge.svg?branch=master)](https://coveralls.io/github/ramumb/try-these?branch=master)
